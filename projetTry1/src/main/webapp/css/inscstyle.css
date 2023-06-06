@@ -1,0 +1,164 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.main-page {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-flex {
+	width: 80vw;
+	height: 70vh;
+	display: flex;
+}
+
+.traitement {
+	width: 50%;
+	height: 110%;
+	display: flex;
+	flex-direction: column;
+}
+
+.image {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image1 {
+	width: 85%;
+	height: 85%;
+	background-image: url(../images/main-image.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.traitement .btns {
+	width: 100%;
+	height: 10%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.traitement .inputs {
+	width: 100%;
+	height: 90%;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btns .btn {
+	color: black;
+	text-decoration: none;
+	width: 30%;
+	height: 100%;
+	padding-top: 15px;
+	padding-left: 50px;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+.btns .btn1 {
+	opacity: 0.6;
+	border-top: 1px solid rgba(0, 0, 0, 0.6);
+	border-left: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.btns .btn2 {
+	border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.inputs-flex {
+	width: 100%;
+	height: 100%;
+}
+
+.inscform {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.inputs-flex2 {
+	width: 100%;
+	height: 10%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.div-input {
+	width: 45%;
+	height: 70%;
+	display: flex;
+}
+
+.icon {
+	height: 100%;
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input {
+	height: 100%;
+	width: 70%;
+}
+
+.point {
+	height: 100%;
+	width: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inputcnt {
+	width: 100%;
+	height: 100%;
+	outline: none;
+	box-shadow: none;
+}
+
+.radio {
+	display: flex;
+	justify-content: space-around;
+}
+
+.cercle {
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	border-radius: 50%;
+}
+
+.submit-div {
+	height: 100%;
+	width: 100%;
+	text-align: end;
+}
+
+.submit-div .submit {
+	width: 50%;
+	height: 90%;
+	border: none;
+	background-color: none;
+	text-transform: capitalize;
+	background-color: rgb(2, 2, 51);
+	color: white;
+}

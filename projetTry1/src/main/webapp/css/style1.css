@@ -1,0 +1,372 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+} 
+.page{
+    width: 100vw;
+    height: 100vh;
+    background-color: black; 
+    display: flex;
+}
+.navbar{
+    width:12vw;
+    height:100vh;
+    background-color: #fd1f4a;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.home{
+    width:88vw;
+    height:100vh;
+    background-color: rgb(255, 255, 255); 
+   
+}
+.logo{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.traitment{
+    width: 100%;
+    height: 50vh;  
+}
+.profile{
+    width: 100%;
+    height: 20vh;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+
+}
+.dropdown{
+  width: 100%;
+  height: 20%;
+}
+.btnmdl{
+    background-color: #2d2c2e;
+    width: 11vw;
+    margin-left: 0.5vw;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 30px;
+}
+.liens{
+    margin-top: 60px;
+    width: 100%;
+    height: 50%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.btn1{
+    border-radius: 5px;
+    width: 90%; 
+    height: 20%;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+    background-color: #2d2c2e;
+    /* margin-top: 30px; */
+}
+.btn1:hover ,.btnmdl:hover ,.profile-lien:hover{
+  background-color: #1b0a2c;
+}
+.profile-content{
+    width: 90%;
+    height: 40%; 
+}
+.logout{
+    width: 90%;
+    height: 40%; 
+}
+.profile-lien{ 
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #2d2c2e;
+}
+.sharit{
+    width: 88vw;
+    height: 15vh;
+    background-color: #2d2c2e;
+    display: flex;
+    align-items: center;
+}
+.sharit h1{
+    color: white;
+    margin-left: 30px;
+}
+.inputs{
+    width: 88vw;
+    height: 85vh;  
+}
+.inputs form{
+    width: 80%;
+    height: 80%;
+
+}
+.classbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.classbtn button{
+    margin-top: 25px;
+    width: 150px;
+}
+.buttons{
+    margin-top: 50px;
+    width: 88vw;
+    height: 15vh; 
+    display: flex;
+    justify-content: space-between; 
+}
+.addbu{
+    width: 15vw;
+    height: 15vh; 
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbtn{
+    width: 45vw;
+    height: 15vh; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;    
+}
+.btn2{
+    border-radius: 5px;
+    width: 89%; 
+    height: 50%;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+    border: none;
+    background-color: #28252c; 
+}
+.btn2:hover{
+    background-color: #1b0a2c;
+}
+
+
+.labelmodule{
+    background-color: #28252c;
+    color: white;
+    width: 45%; 
+    height: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: none;
+    outline: none; 
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+}
+.selectionmodule{
+    background-color: #1b0a2c;
+    color: white;
+    width: 50%; 
+    height: 50%; 
+    border: none;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.findinput{
+    color: #ffffff;
+    background-color:#28252c;
+    width: 45%; 
+    height: 50%;  
+    border: none;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.btn3{
+    border-radius: 10px; 
+    width: 15%; 
+    height: 50%;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+    border: none;
+    background-color: #28252c; 
+}
+.btn3:hover{
+    background-color: #1b0a2c;
+}
+.firstselection{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center; 
+}
+.secondselection{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center; 
+}
+.secondselection2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+}
+
+.table{
+    width: 100%;
+    height: 62.34vh; 
+    overflow: scroll; 
+}
+td,th,tr{
+    text-align: center;
+} 
+.add{ 
+    width: 88vw;
+    height: 85vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.containe{ 
+    width: 70%;
+    height: 70%; 
+}
+.form1{  
+    background-color: aqua;
+    border-radius: 10px; 
+    display: flex;
+     width: 100%;
+     height: 50%;
+}
+.con{
+    width: 100%;
+    height: 100%; 
+
+}
+
+.moduleinput{
+    color: #ffffff;
+    background-color:#28252c;
+    width: 45%; 
+    height: 100%;  
+    border: none;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.moduleinput1{
+    color: #ffffff;
+    background-color:#28252c;
+    width: 30%; 
+    height: 100%;  
+    border: none;
+    outline: none; 
+}
+.btn4{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    width: 55%; 
+    height: 100%;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+    border: none;
+    background-color: #1b0a2c; 
+}
+.btn4:hover{
+    background-color: #2d2c2e;
+}
+.fichinfo{ 
+    width: 88vw;
+    height: 22.66vh;   
+}
+.info1{
+   width: 100%;
+   height: 50%; 
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+} 
+.input1{
+    height: 50%;
+    width: 20%; 
+}
+.getabs{
+    width: 100%;
+    height: 100%; 
+} 
+.btn5{
+    border-radius:10px ;
+    height: 80%;
+    width: 60%; 
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+    border: none;
+    background-color: #28252c; 
+}
+.btn5:hover{
+    background-color: #1b0a2c;
+}
+.btnsave{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table2{
+    width: 100%;
+    height: 40vh; 
+    overflow-y: scroll;
+    overflow-x: scroll; 
+}
+.form2{ 
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.addniveau{
+    color: #ffffff;
+    background-color:#28252c;
+    width: 50%; 
+    height: 100%;  
+    border: none;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+ 
+ 
